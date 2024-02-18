@@ -5,6 +5,6 @@ describe("test suite for checking the rover functionality", () => {
   it("Initialize the class correctly", () => {
     const chandrayaan = new Rover();
 
-    expect(chandrayaan instanceof Rover).toBe(true);
+    expect(chandrayaan).toBeInstanceOf(Rover);
   })
 })
