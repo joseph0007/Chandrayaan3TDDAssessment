@@ -1,5 +1,12 @@
 ## chandrayaan-3-tdd-assessment
 
+### How to run the program
+- environment expected to be installed with node => ^20.10.0
+- clone the project
+- run `npm i` in root directory
+- run `npm start` to run the program
+- run `npm test` to run test cases
+
 ### Description
 As a scientist at ISRO controlling the latest lunar spacecraft Chandrayaan 3, your task is to develop a program that translates commands sent from Earth into instructions understood by the spacecraft. The spacecraft navigates through the galaxy using galactic coordinates, represented by x, y, z coordinates (x for east or west location, y for north or south location, and z for distance above or below the galactic plane).
 
