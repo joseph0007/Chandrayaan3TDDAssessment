@@ -2,7 +2,7 @@ const { createInterface } = require('node:readline');
 const constants = require("./utils/constants");
 
 const {
-  COMMAND_COUNT = 6
+  COMMAND_COUNT = 5
 } = process.env;
 
 let readline;
